@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Meats - Carnes Selectas</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div id="loader-wrapper">
+	    <img src="img/loader.svg" alt="" id="loader">
+
+	    <div class="loader-section section-left"></div>
+	    <div class="loader-section section-right"></div>
+	 
+	</div>
+	
+	<div id="myNav" class="overlay">
+		<div class="overlay-content">
+			<a href="index.html">Inicio</a>
+			<a href="nosotros.html">Nosotros</a>
+			<a href="productos.html">Productos</a>
+			<a href="contacto.html">Contacto</a>
+		</div>
+	</div>
+
+	<header id="header">
+		<a href="index.html">Inicio</a>
+		<a href="nosotros.html">Nosotros</a>
+		<div class="menu-logo-spacer"></div>
+		<a href="index.html" class="menu-logo">
+			<img src="img/logo-shape.svg" alt="Meats">
+		</a>
+		<a href="productos.html">Productos</a>
+		<a href="contacto.html">Contacto</a>
+
+		<div class="mobile-menu">
+			<div class="burger-menu">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+		</div>
+	</header>
+
+	<header id="mobile-header">
+		<a href="index.html" class="menu-logo">
+			<img src="img/logo-shape.svg" alt="Meats">
+		</a>
+
+		<div class="mobile-menu">
+			<div class="burger-menu">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+		</div>
+	</header>
+
+	<div class="intro full-section">
+		<h1>
+			Calidad que se disfruta
+			<hr>
+		</h1>
+		<div class="scroll-down">
+			<p>Comienza</p>
+		</div>
+	</div>
+
+	<div class="products-index full-section">
+		<div class="to-products ribs">
+			<div class="shape-link">
+				<img src="img/shape.svg" alt="Meats" class="shape">
+				<h3>Costillas</h3>
+				<hr>
+			</div>
+		</div>
+		<div class="to-products burguers">
+			<div class="shape-link">
+				<img src="img/shape.svg" alt="Meats" class="shape">
+				<h3>Hamburguesas</h3>
+				<hr>
+			</div>
+		</div>
+		<div class="to-all-products">
+			<img src="img/beef.svg" alt="Res">
+			<a href="productos.html">Ver todos los productos</a>
+			<img src="img/pork.svg" alt="Cerdo">
+		</div>
+	</div>
+
+	<div class="company-brief full-section">
+		<img src="img/knives.svg" alt="Calidad en Carnes" class="knives">
+		<div class="brief">
+			<h2>¿Quienes somos?</h2>
+			<p>
+				En MEATs contamos con el producto que necesitas. tus platillos no serán los mismos después de que experimentes el sabor y calidad de nuestros cortes selectos. Sorprende a tus clientes con el sabor y frescura que sólo en meats encuentras.
+			</p>
+		</div>
+		<div class="diagonal">
+			<img src="img/diagonal.svg" alt="Meats">
+		</div>
+	</div>
+
+	<div class="contact full-section">
+		<div class="title">
+			<hr>
+			<h2>¡Échala a la parrilla!</h2>
+			<hr>
+		</div>
+		<div class="contact-container">
+			<div class="contact-form">
+				<p>
+					Déjanos un mensaje y muy pronto nos pondremos en contacto contigo ¡lo vas a disfrutar!
+				</p>
+				<form method="POST" action="https://formspree.io/maur@gmail.com" >
+					<input type="text" name="Nombre" placeholder="Nombre" required>
+					<input type="email" name="Correo Electrónico" placeholder="E-mail" required>
+					<input type="text" name="Empresa" placeholder="Negocio / Empresa" required>
+					<textarea placeholder="Mensaje" name="Mensaje" rows="4" required></textarea> 
+					<input type="submit"  value="Enviar">
+					<input type="hidden" name="_next" value="index.html" />
+					<input type="hidden" name="_subject" value="Nuevo Mensaje desde Meats.mx" />
+				</form>
+			</div>
+			<div class="contact-image">
+			</div>
+		</div>
+	</div>
+	
+	<div class="parallax full-section">
+		<img src="img/logo-white.svg" alt="Meats. Carnes Selectas">
+	</div>
+
+	<div class="footer">
+		<p>
+			<a href="index.html">Meats.mx 2017</a>
+		</p>
+		<a href="http://nuva.rocks" target="_blank">
+			<img src="img/nuva.svg" alt="Desarrollado por Nuva Rocks">
+		</a>
+	</div>
+
+</body>
+</html>
