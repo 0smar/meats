@@ -5,6 +5,9 @@ $(document).ready(function(){
 	var productsIndex = $('.shape').height + 40;
 	$('.to-products').height(productsIndex);
 
+	var productimage = $('.product-image').width();
+	$('.product-image').height(productimage);
+
 	setTimeout(function(){
         $('body').addClass('loaded');
     }, 1000);
@@ -28,10 +31,12 @@ function closeNav() {
     $("#myNav").width("0%");
 }
 
-// window.sr = ScrollReveal();
-// sr.reveal('.from-bottom', { duration: 1200 });
-// sr.reveal('.desc-from-bottom', { duration: 1200 }, 350 );
-// sr.reveal('.recipe-from-bottom', { duration: 700 }, 250 );
-// sr.reveal('.step-from-bottom', { duration: 1200 }, 350 );
-// sr.reveal('.step-from-left', { origin: 'left', duration: 1800, distance: '100px' }, 550 );
-// sr.reveal('.square-from-left', { origin: 'left', duration: 1800, distance: '100px' }, 350 );
+window.sr = ScrollReveal();
+sr.reveal('.from-bottom', { duration: 1200, delay: 1000 });
+sr.reveal('.from-top', { duration: 1200, delay: 1000 });
+sr.reveal('.from-right', { origin: 'right', duration: 1200, distance: '100px', delay: 1000 });
+sr.reveal('.from-left', { origin: 'left', duration: 1200, distance: '100px', delay: 1000 });
+sr.reveal('.desc-from-bottom', { duration: 1200 }, 350 );
+sr.reveal('.step-from-bottom', { duration: 1200 }, 350 );
+sr.reveal('.step-from-left', { origin: 'left', duration: 1800, distance: '100px' }, 550 );
+sr.reveal('.square-from-left', { origin: 'left', duration: 1800, distance: '100px' }, 350 );

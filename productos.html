@@ -9,8 +9,7 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
 	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
-	<script type="text/javascript" src="js/script.js"></script>
+	<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
 	
@@ -64,7 +63,7 @@
 		</div>
 	</header>
 	
-	<div class="section-description">
+	<div class="section-description from-bottom">
 		<h1>¿Qué se te antoja?</h1>
 		<p>
 			En MEATS contamos con una aplia variedad de productos separados en dos grandes categorías para que puedas encontrar el producto que buscas de manera rápida.
@@ -93,19 +92,26 @@
 
 	<div class="products">
 		<div class="product">
-			<img src="img/meat.jpg" alt="Pecho de Res">
+			<div class="product-image">
+				<img src="img/pechoderes.png" alt="Pecho de Res">
+			</div>
 			<hr>
 			<h3>Pecho de Res</h3>
 		</div>
 		<div class="product">
-			<img src="img/meat.jpg" alt="Pecho de Res">
+			<div class="product-image">
+				<img src="img/babyback.jpg" alt="Baby Back">
+			</div>
 			<hr>
-			<h3>Pecho de Res</h3>
+			<h3>Baby Back</h3>
 		</div>
 		<div class="product">
-			<img src="img/meat.jpg" alt="Pecho de Res">
+			<div class="product-image">
+				<img src="img/costillasanluis.jpg" alt="Costilla San Luis">
+			</div>
+			
 			<hr>
-			<h3>Pecho de Res</h3>
+			<h3>Costilla San Luis</h3>
 		</div>
 	</div>
 
@@ -117,6 +123,8 @@
 			<img src="img/nuva.svg" alt="Desarrollado por Nuva Rocks">
 		</a>
 	</div>
-
+	
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

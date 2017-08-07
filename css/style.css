@@ -698,8 +698,19 @@ input[type=submit]{
 	align-items: center;
 }
 
+.product-image{
+	width: 70%;
+	object-fit: contain;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 16px;
+}
+
 .product img{
 	width: 100%;
+
 }
 
 .product hr{
@@ -724,6 +735,16 @@ input[type=submit]{
 
 .category-header .description{
 	width: 100%;
+}
+
+.products-back{
+	padding: 30px;
+	display: flex;
+	color: #000;
+}
+
+.section-contact{
+	margin-top: 30px;
 }
 
 @media screen and (max-width: 768px) {
@@ -786,6 +807,124 @@ input[type=submit]{
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
+	.menu-logo{
+		width: 220px;
+		left: calc(50% - 110px);
+	}
+
+	.menu-logo-spacer{
+		width: 200px;
+	}
+
+	.intro h1{
+		font-size: 72px;
+		line-height: normal;
+		text-shadow: 5px 5px 0px rgba(0,0,0,0.5);
+	}
+
+	.intro h1 hr{
+		width: 100%;
+		box-shadow: 5px 5px 0px rgba(0,0,0,0.5);
+		height: 5px;
+	}
+
+	.scroll-down{
+		padding-right: 0;
+	}
+
+	.scroll-down p{
+		margin-bottom: 0;
+		font-size: 22px;
+	}
+
+	.products-index{
+		flex-direction: column;
+	}
+
+	.to-products{
+		width: 100%;
+		height: 280px;
+	}
+
+	.to-all-products{
+		padding: 20px 5px;
+	}
+
+	.to-all-products img{
+		width: 45px;
+		margin: 0 5px;
+	}
+
+	.to-all-products a{
+		font-size: 24px;
+	}
+
+	.company-brief .brief{
+		width: 100%;
+		margin: 0;
+	}
+
+	.contact{
+		margin-top: 0;
+	}
+
+	.contact .title hr{
+		width: 15%;
+	}
+
+	.contact .title h2{
+		font-size: 34px;
+	}
+
+	.contact-container{
+		flex-direction: column;
+		padding: 24px;
+	}
+
+	.contact-form{
+		width: 100%;
+		padding: 0;
+	}
+
+	.section-company{
+		padding-top: 30px;
+	}
+
+	.our-philosophy{
+		flex-direction: column-reverse;
+		padding: 20px;
+	}
+
+	.our-philosophy .phi-text{
+		width: 100%;
+	}
+
+	.product h3{
+		font-size: 20px;
+	}
 	
+	.section-description{
+		width: 100%;
+	}
+	.category-header img{
+		width: 100px;
+		margin: 0 auto;
+	}
+
+	.section-description h1{
+		font-size: 32px;
+	}
+
+	.section-description{
+		flex-direction: column;
+	}
+
+	.products{
+		width: 100%;
+	}
+
+	.section-contact{
+		margin-top: 30px;
+	}
 }
